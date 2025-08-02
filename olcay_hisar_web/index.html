@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olcay Hisar Portfolia Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6a2995846e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav> 
+            <img src="images\Asyalmira4.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <!----------<div class="header-text">
+                <p>Data Scientist</p>
+                <h1>Hi, I'am <span>Olcay</span> Hisar </h1>
+                <img src="images\img20240409_13430715.jpg">
+            
+    </div> ---->   
+        <div class="header-text">
+            <div class="text-image-container">
+            <div class="text-content">
+                <p>Data Scientist</p>
+                <h1>Hi, I'm <span>Olcay</span> Hisar<br> From Germany</h1>
+            </div>
+            <div class="image-content">
+                <img src="images/img20240409_13430715.jpg" alt="Profile">
+            </div>
+            
+        </div>
+    </div> 
+        
+</div>
+<!-------------------------------------------about------------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+           <!--<div class="about-col-1">
+                <img src="images\img20240409_13430715.jpg">
+           </div>--->
+            <div class="about-col-2">    
+                <h1 class="sub-title">About Me</h1>
+                
+                <p> I'm a data scientist with three years of experience in analyzing large data set 
+                and coming up with data-driven insights for enviromental and climate change studies.
+                Capable of working in predictive modelling, data processing, and data mining algorithms 
+                as well as scripting languages such as Python and Matlab.</p>
+                            
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab ('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education </p>
+                    <p class="tab-links" onclick="opentab('courses')">Courses </p>
+
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span>Data Visualization</span><br> Tableau, PowerBI</li>
+                        <li> <span>Machine Learning Algorithms</span><br> Linear Regression, Decision Tree, SVM, KNN, PCA</li>
+                        <li> <span>Deep Learning</span><br> Convolutional Neural Networks, Natural Language Processing</li>
+                        <li> <span>Geoinformation Systems</span><br> Geodata management, Vector analytics, Process automation</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li> <span>March 2022 - March 2024</span><br> Postdoctrol Researcher at Ecotoxicology Lab, Goethe University, Germany</li>
+                        <li> <span>September 2022 - October 2023</span><br> Data Scientist (Intership) at Jerseytech, LLC (Oneamz), USA  </li>
+                        <li> <span>July 2011 - September 2016</span><br> Researcher at Canakkale 18 Mart University, Turkiye</li>
+                        <li> <span>January 1997 - July 2011 </span><br> Researcher at Atatürk University, Turkiye</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span>2003</span><br> Ph.D., Institute of Science, Atatürk University, Turkiye</li>
+                        <li> <span>2000</span><br> MBA, Institute of Science, Atatürk University, Turkiye</li>
+                        <li> <span>1997</span><br> B.Sc., Agriculture Engineering, Atatürk University, Turkiye</li>
+                        <li> <span>1991</span><br> Meteorological High School, Turkiye</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="courses">
+                    <ul>
+                        <li> <span>April 2024 - October 2024</span><br>Geographic Information System, euroTech Study GmbH, Germany</li>
+                        <li> <span>September 2022 - June 2023</span><br> Data Science, TechproEducation, USA</li>
+                        <li> <span>October 2022</span><br> Python with Algoritm, Udemy</li>
+                        <li> <span>Juni 2022</span><br> IBM SPSS AMOS, Academics at Risk e.V., Germany</li>
+                       
+                    </ul>
+                </div>
+            </div>               
+        </div>
+    </div>
+</div> 
+<!------------------------------------services--------------------------                -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+            <div>
+               <i class="fa-solid fa-chart-simple"></i>
+                <h2>Data Visualization</h2>
+                <p>
+                    I specialize in transforming complex data into clear, engaging, and actionable visual narratives using 
+                    industry-leading tools such as Power BI and Tableau. My work bridges the gap between raw information and meaningful insights, 
+                    helping organizations make data-driven decisions with confidence. 
+
+                    <input type="checkbox" id="toggle1" class="toggle">
+                    
+                    <span class="more-text"> 
+                        <br><br>
+                        <strong> What I Do:</strong><br>
+                        - Design and develop custom, visually compelling dashboards and reports with Power BI and Tableau.<br>
+                        - Translate complex datasets into intuitive and interactive visual formats. <br>
+                        - Create visual solutions that enhance understanding, engagement, and decision-making.<br>
+                        - Deliver clear, accurate, and impactful visuals tailored to your audience and objectives. <br><br>
+                        Whether for strategic business insights, academic research, or public communication, I help you see the story behind your data — through the power 
+                            of Power BI and Tableau.
+
+                    </span>
+                <label for="toggle1" class="read-more-label read-more"> <br>Read more</label>
+                <label for="toggle1" class="read-more-label read-less"> Read less</label>
+                                   
+                </p>
+                <!--<a href="#">Read more --->
+
+                </a>
+
+
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-file"></i>
+                <h2>Deep Learning</h2>
+                <p>
+                    I specialize in developing advanced deep learning solutions that enable machines to recognize patterns, 
+                    make predictions, and automate complex tasks through the power of artificial intelligence. My work bridges 
+                    the gap between raw data and intelligent automation, helping organizations leverage deep learning technologies to 
+                    solve real-world challenges.
+
+                 <input type="checkbox" id="toggle2" class="toggle">
+                    
+                    <span class="more-text"> 
+                        <br><br>
+                        <strong> What I Do:</strong><br>
+                        - Design and implement deep learning models for computer vision, natural language processing, and predictive analytics.<br>
+                        - Optimize and fine-tune neural networks for high performance and accuracy. <br>
+                        - Provide clear visualizations and interpretations of model outcomes for non-technical stakeholders.<br><br>
+                        Whether for strategic business insights, academic research, or public communication, I help you see the story behind your data — through the power 
+                            of Power BI and Tableau.
+
+                    </span>
+                <label for="toggle2" class="read-more-label read-more"> <br>Read more</label>
+                <label for="toggle2" class="read-more-label read-less"> Read less</label>
+
+                </p>
+                <!--<a href="#">Learn more ---->
+
+                </a>
+
+
+            </div>
+            <div>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h2>Geoinformation Systems</h2>
+                <p>
+                    I provide specialized services in Geographic Information Systems (GIS), enabling organizations to analyze, visualize, 
+                    and interpret spatial data for informed decision-making. My work connects geographic data with business intelligence to reveal 
+                    patterns, relationships, and trends that support strategic planning and operational efficiency.
+
+                 <input type="checkbox" id="toggle3" class="toggle">
+                    
+                    <span class="more-text"> 
+                        <br><br>
+                        <strong> What I Do:</strong><br>
+                        - Design and develop custom GIS solutions for mapping, spatial analysis, and geospatial visualization.<br>
+                        - Perform spatial data analysis to uncover insights related to location, distribution, and relationships. <br>
+                        - Create interactive maps, dashboards, and reports tailored to your specific needs.<br>
+                        - Utilize leading GIS platforms and tools such as ArcGIS and QGIS<br>
+                        - Integrate GIS with other data systems and visualization platforms<br>
+                        - Transform complex geographic data into clear, actionable insights for both technical and non-technical audiences.<br><br>
+                        Whether supporting urban planning, environmental analysis, logistics, or business development, I help you harness the full potential 
+                        of geospatial data through the power of GIS.
+
+                    </span>
+                <label for="toggle3" class="read-more-label read-more"> <br>Read more</label>
+                <label for="toggle3" class="read-more-label read-less"> Read less</label>
+                </p>
+                <!--<a href="#">Learn more -->
+
+                </a>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-----------         Porfolio   ---------------------->
+<div id="portfolio">
+    <div class="container">
+                <h1 class="sub-title">My Work</h1>
+        <div class="work-list first-set">
+            <div class="work">
+                    <img src="images\Power_BI_2.png" >
+                    <div class="layer">
+                        <h3> Financial Analysis</h3>
+                        <p> ONEAMZ’s financial performance was analyzed through data analysis, machine learning, OCR, 
+                            sentiment analysis, forecasting, and customer behavior modeling. <br> A small part of this comprehensive work is available at the following link</p>
+                        <a href="https://1drv.ms/u/c/9964bc45b07ebb93/EaZGeSblQv1GlrpK4pBRNuwBEL_KAQwLZnVBDHpFlA9KOQ?e=GgOu8L" target="_blank"><i class="fa-solid fa-link"></i></i></a>
+
+                    </div>
+            </div>  
+            <div class="work">
+                    <img src="images\machine_learning.jpeg ">
+                    <div class="layer">
+                        <h3> Gender Estimation</h3>
+                        <p> It was implemented for gender estimation of <em>Gammarus fossarum</em> using deep learning algorithms. 
+                            Specifically, two pre-trained convolutional neural networks, ResNet-50 and ResNet-101, were employed and compared to a newly developed custom model. 
+                            The models were trained and validated on image datasets of <em>Gammarus fossarum </em>individuals to classify their gender</p>
+                        <a href="https://github.com/ohisar/Gammarus_foss" target="_blank"><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+            </div>  
+                  <div class="work">
+                    <img src="images\QGIS.webp" >
+                    <div class="layer">
+                        <h3> Fiber Optic Network Planning</h3>
+                        <p>A fiber optic (Glasfaser) network planning project was conducted for Dienstadt, located in the state of Baden-Württemberg, Germany. The project 
+                            involved the design and spatial planning of high-speed broadband infrastructure using QGIS, an open-source Geographic Information System</p>
+                        <a href="https://github.com/ohisar/QGIS_Dienstadt_Glasfaser.git" target="_blank"><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+            </div>
+        </div> 
+        <div class="work-list second-set" style="display: none;">
+                <div class="work">
+                    <img src="images\machine_learning.jpeg ">
+                    <div class="layer">
+                        <h3> CO<sub>2</sub> Emission Estimation </h3>
+                        <p> It is aimed to estimate the emission amounts of vehicles by using deep learning algorithms on the dataset containing official CO<sub>2</sub> emission data of 
+                            various vehicles with different features.</p>
+                        <a href="https://github.com/ohisar/CO2_Emissions.git" target="_blank"><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+                </div>  
+                <div class="work">
+                    <img src="images\machine_learning.jpeg ">
+                    <div class="layer">
+                        <h3>Multi-Class Classification </h3>
+                        <p> It is aimed to determine the most successful model by applying deep learning algorithms on the 2012 US Army Anthropometric Survey (ANSUR II) 
+                            dataset. </p>
+                        <a href="https://github.com/ohisar/Soldier_Race.git" target="_blank"><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\machine_learning.jpeg ">
+                    <div class="layer">
+                        <h3>Modeling Car Prices</h3>
+                        <p> In this project, the aim is to estimate the price of cars using regression algorithms on Auto Scout dataset, scraped from the online car trading company in 2019, 
+                            contains many features of 9 different car models. </p>
+                        <a href="https://github.com/ohisar/Modeling_Auto_Scout.git" target="_blank"><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+                </div>    
+        </div> 
+        
+                <a href="#" class="btn" id="seeMoreBtn">See more</a>
+    </div>
+
+</div>
+<!-- ----------------contact-------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> ohisar74@gmail.com</p>
+                <p> <i class="fas fa-phone-square-alt"></i></i> +49 1639551046</p> 
+                 <div class="social-icons">
+                    <a href="https://linkedin.com/in/olcay-hisar-907924295" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/olcay.hisar" target="_blank"><i class="fab fa-facebook"></i></a>
+                    
+                 </div>
+                 <a href="images\CV_Olcay_Hisar_last.pdf" download class="btn btn2" > Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Olcay Hisar. All rights reserved </p>
+
+    </div>
+</div>
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document. getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu (){
+        sidemenu.style.right ="0";
+    }
+    function closemenu (){
+        sidemenu.style.right ="-200px";
+
+
+    }
+
+</script>
+<script>
+  const btn = document.getElementById("seeMoreBtn");
+  let showingSecond = false;
+
+  btn.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    const firstSet = document.querySelector(".first-set");
+    const secondSet = document.querySelector(".second-set");
+
+    if (!showingSecond) {
+      firstSet.style.display = "none";
+      secondSet.style.display = "grid"; // ya da block
+      btn.textContent = "See less";
+    } else {
+      firstSet.style.display = "grid"; // ya da block
+      secondSet.style.display = "none";
+      btn.textContent = "See more";
+    }
+
+    showingSecond = !showingSecond;
+  });
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzi48soQE1Vs21ZrwnR6Qhbj2gCcZBv4EepcLUnCFwJlOv0Ngz05IyzIyKhWzicZO_Nsg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById ("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>    
+</body>
+</html>
