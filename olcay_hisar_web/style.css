@@ -417,7 +417,7 @@ nav .fas{
     padding: 0% 0;
     margin-top: 100%;
     max-width: 100%;
-    height: max-content;
+    height: auto;
     border-radius: 300px; /* İstersen oval köşe için */
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
@@ -471,6 +471,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
