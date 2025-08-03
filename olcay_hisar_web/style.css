@@ -108,9 +108,9 @@ nav ul li a:hover:after{
 /*-------------------------------about----------------------*/
 
 #about {
-          margin-top: 100px;
-               
-          color: #ababab;
+        margin-top: -200px;
+        padding: 10% 0;
+        color: #ababab;
 }
 .row{
     display: flex;
@@ -184,6 +184,7 @@ nav ul li a:hover:after{
 }
 /*----------------------------------sevices------------------------------------*/
 #services{
+    margin-top:-100px;
     padding :50px 0;
 }
 .services-list{
@@ -255,6 +256,7 @@ nav ul li a:hover:after{
 
 /*------------------portfolio-----------------------*/
 #portfolio{
+    margin-top:30px;
     padding:50px 0;
 }
 .work-list{
@@ -335,6 +337,10 @@ nav ul li a:hover:after{
 }
 
 /*---------contact-------------*/
+#contact{
+    margin-top:-200px;
+    padding:10% 0;
+}
 .contact-left{
     flex-basis: 35%;
 
@@ -395,10 +401,10 @@ form .btn2{
 .copyright{
     width: 100%;
     text-align: center;
-    padding: 25px 0;
+    padding: 20px 0;
     background: #262626;
     font-weight:300;
-    margin-top: 20px;
+    margin-top: 200px;
 
 }
 /*------------------------css for small screens---------------------*/
@@ -458,3 +464,4 @@ nav .fas{
     display: block;
 
 }
+
