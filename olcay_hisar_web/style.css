@@ -184,7 +184,7 @@ nav ul li a:hover:after{
 }
 /*----------------------------------sevices------------------------------------*/
 #services{
-    margin-top:-100px;
+    margin-top:-50px;
     padding :50px 0;
 }
 .services-list{
@@ -464,5 +464,6 @@ nav .fas{
     display: block;
 
 }
+
 
 
