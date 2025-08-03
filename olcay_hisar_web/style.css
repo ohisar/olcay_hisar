@@ -338,7 +338,7 @@ nav ul li a:hover:after{
 
 /*---------contact-------------*/
 #contact{
-    margin-top:-200px;
+    margin-top:-100px;
     padding:10% 0;
 }
 .contact-left{
@@ -464,4 +464,5 @@ nav .fas{
     display: block;
 
 }
+
 
