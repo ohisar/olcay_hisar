@@ -413,10 +413,17 @@ nav .fas{
 }
 
 @media only screen and (max-width: 800px) {
-
+    .image-content img {
+    padding: 0% 0;
+    margin-top: -5%;
+    max-width: 80%;
+    height: auto;
+    border-radius: 300px; /* İstersen oval köşe için */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
 
     .header-text{
-        margin-top: 100%;
+        margin-top: 20%;
         font-size: 30px;
     }
     .header-text h1{
@@ -464,6 +471,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
