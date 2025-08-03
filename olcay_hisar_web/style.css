@@ -415,18 +415,18 @@ nav .fas{
 @media only screen and (max-width: 800px) {
     .image-content img {
     padding: 0% 0;
-    margin-top: 20%;
+    margin-top: 0%;
     max-width: 100%;
     border-radius: 300px; /* İstersen oval köşe için */
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
 
     .header-text{
-        margin-top: 10%;
+        margin-top: 0%;
         font-size: 20px;
     }
     .header-text h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     nav .fas{
         display: block ;
@@ -470,6 +470,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
