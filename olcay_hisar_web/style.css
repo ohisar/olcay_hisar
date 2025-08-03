@@ -196,7 +196,7 @@ nav ul li a:hover:after{
 .services-list div{
     background: #262626;
     padding: 40px;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
@@ -216,7 +216,7 @@ nav ul li a:hover:after{
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 16px;
     margin-top:20px;
     display: inline-block;
 }
@@ -239,7 +239,7 @@ nav ul li a:hover:after{
     color: #61b752;
     margin-top: 20px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .read-less {
@@ -293,7 +293,7 @@ nav ul li a:hover:after{
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     transition: height 0.5s;
 }
 .layer h3{
@@ -305,7 +305,7 @@ nav ul li a:hover:after{
     margin-top: 10px;
     color: #ff004f;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 50px ;
     background: #fff;
     width: 50px;
@@ -464,6 +464,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
