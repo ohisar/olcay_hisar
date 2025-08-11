@@ -16,8 +16,7 @@ body{
 }
 #header {
     width: 100%;
-    height: auto;
-    padding-bottom: 50px;
+    height: 10vd;
 }
 
 .container {
@@ -481,6 +480,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
