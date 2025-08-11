@@ -424,6 +424,10 @@ nav .fas{
     border-radius: 400px; /* İstersen oval köşe için */
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
+     #header {
+        height: auto;
+        padding-bottom: 30px;
+    }
     
     .header-text{
         margin-top: 10%;
@@ -432,6 +436,7 @@ nav .fas{
     .header-text h1{
         font-size: 40px;
     }
+   
     nav .fas{
         display: block ;
         font-size: 25px;
@@ -480,6 +485,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
