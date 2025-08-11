@@ -463,6 +463,9 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    about {
+        margin-top:-100px
+    }
     .copyright{
         font-size: 14px;
     }
@@ -473,6 +476,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
