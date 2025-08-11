@@ -92,6 +92,7 @@ nav ul li a:hover:after{
 
 .text-content {
     width: 90%;
+    margin-bottom: 5%;
 }
 
 .image-content img {
@@ -472,6 +473,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
