@@ -96,7 +96,7 @@ nav ul li a:hover:after{
 
 .image-content img {
     padding: 0% 0;
-    margin-top: -20%;
+    margin-top: 0%;
     max-width: 70%;
     height: auto;
     border-radius: 400px; /* İstersen oval köşe için */
@@ -417,7 +417,7 @@ nav .fas{
     .image-content img {
     padding: 0% 0;
     margin-top: 100%;
-    max-width: 100%;
+    max-width: 200%;
     height:auto;
     border-radius: 400px; /* İstersen oval köşe için */
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -472,6 +472,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
