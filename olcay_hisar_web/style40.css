@@ -91,7 +91,7 @@ nav ul li a:hover:after{
 }
 
 .text-content {
-    width: 90%;
+    width: 80%;
 }
 
 .image-content img {
@@ -99,7 +99,7 @@ nav ul li a:hover:after{
     margin-top: -20%;
     max-width: 70%;
     height: auto;
-    border-radius: 300px; /* İstersen oval köşe için */
+    border-radius: 400px; /* İstersen oval köşe için */
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
@@ -108,9 +108,9 @@ nav ul li a:hover:after{
 /*-------------------------------about----------------------*/
 
 #about {
-        margin-top: 0px;
-        padding: 10% 0;
-        color: #ababab;
+    margin-top: 0px;
+    padding: 10% 0;
+    color: #ababab;
 }
 .row{
     display: flex;
@@ -118,7 +118,7 @@ nav ul li a:hover:after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 .about-col-1 img{
     padding-top: 0;
@@ -128,7 +128,7 @@ nav ul li a:hover:after{
 }
 
 .about-col-2 {
-    flex-basis: 70%;
+    flex-basis: 60%;
     font-size: 24px;
 }
 
@@ -143,12 +143,12 @@ nav ul li a:hover:after{
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
-
+    
 }
 
 .tab-links{
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight:500;
     cursor:pointer;
     position: relative;
@@ -173,7 +173,7 @@ nav ul li a:hover:after{
 }
 .tab-contents ul li span {
     color: #ff004f;
-    font-size: 12px;
+    font-size: 18px;
 }
 .tab-contents{
     display:none;
@@ -184,7 +184,7 @@ nav ul li a:hover:after{
 }
 /*----------------------------------sevices------------------------------------*/
 #services{
-    margin-top:0px;
+    margin-top: 0px;
     padding :5% 0;
 }
 .services-list{
@@ -196,7 +196,7 @@ nav ul li a:hover:after{
 .services-list div{
     background: #262626;
     padding: 40px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
@@ -216,7 +216,7 @@ nav ul li a:hover:after{
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     margin-top:20px;
     display: inline-block;
 }
@@ -239,7 +239,7 @@ nav ul li a:hover:after{
     color: #61b752;
     margin-top: 20px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .read-less {
@@ -256,7 +256,7 @@ nav ul li a:hover:after{
 
 /*------------------portfolio-----------------------*/
 #portfolio{
-    margin-top:200px;
+    margin-top: 200px;
     padding:50px 0;
 }
 .work-list{
@@ -293,7 +293,7 @@ nav ul li a:hover:after{
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     transition: height 0.5s;
 }
 .layer h3{
@@ -305,7 +305,7 @@ nav ul li a:hover:after{
     margin-top: 10px;
     color: #ff004f;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 50px ;
     background: #fff;
     width: 50px;
@@ -412,21 +412,23 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+
     .image-content img {
     padding: 0% 0;
-    margin-top: 0%;
+    margin-top: -5%;
     max-width: 100%;
-    border-radius: 300px; /* İstersen oval köşe için */
+    height:auto;
+    border-radius: 400px; /* İstersen oval köşe için */
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
-
+    
     .header-text{
-        margin-top: 0%;
-        font-size: 20px;
+        margin-top: 10%;
+        font-size: 30px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     nav .fas{
         display: block ;
