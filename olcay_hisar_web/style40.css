@@ -412,7 +412,7 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .image-content img {
     padding: 0% 0;
     margin-top: 0%;
@@ -470,6 +470,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
