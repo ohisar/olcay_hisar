@@ -110,7 +110,7 @@ nav ul li a:hover:after{
 /*-------------------------------about----------------------*/
 
 #about {
-    margin-top: 0px;
+    margin-top: 100px;
     padding: 10% 0;
     color: #ababab;
 }
@@ -481,6 +481,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
