@@ -459,6 +459,9 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
+    #about {
+        padding-top: 50px;
+    }
     .sub-title {
         margin-top: 20%;
         font-size: 40px;
@@ -477,6 +480,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
