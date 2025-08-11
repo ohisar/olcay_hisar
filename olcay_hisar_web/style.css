@@ -461,7 +461,7 @@ nav .fas{
         cursor: pointer;
     }
     #about {
-        margin-top: 100px;
+        margin-top: 10%;
     }
     .sub-title {
         margin-top: 20%;
@@ -481,6 +481,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
