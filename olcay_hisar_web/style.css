@@ -186,7 +186,7 @@ nav ul li a:hover:after{
 /*----------------------------------sevices------------------------------------*/
 #services{
     margin-top: 100px;
-    padding: 50px 0;
+    padding: 5% 0;
 }
 .services-list{
     display:grid;
@@ -257,8 +257,8 @@ nav ul li a:hover:after{
 
 /*------------------portfolio-----------------------*/
 #portfolio{
-    margin-top: 200px;
-    padding:50px 0;
+    margin-top: 0px;
+    padding:10% 0;
 }
 .work-list{
     display:grid;
@@ -477,6 +477,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
