@@ -257,7 +257,7 @@ nav ul li a:hover:after{
 
 /*------------------portfolio-----------------------*/
 #portfolio{
-    margin-top: 0px;
+    margin-top: 200px;
     padding:10% 0;
 }
 .work-list{
@@ -477,6 +477,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
